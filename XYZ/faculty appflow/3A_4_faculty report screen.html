@@ -1,0 +1,130 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-[#0f1a24] dark justify-between group/design-root overflow-x-hidden"
+      style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-[#0f1a24] p-4 pb-2 justify-between">
+          <div class="text-white flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center pr-12">Reports</h2>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Attendance Overview</h2>
+        <div class="flex gap-3 p-3 overflow-x-hidden">
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#20364b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">All Classes</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#20364b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Class A</p>
+          </div>
+          <div class="flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-full bg-[#20364b] pl-4 pr-4">
+            <p class="text-white text-sm font-medium leading-normal">Class B</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-4 px-4 py-6">
+          <div class="flex min-w-72 flex-1 flex-col gap-2 rounded-xl border border-[#2e4e6b] p-6">
+            <p class="text-white text-base font-medium leading-normal">Attendance Rate</p>
+            <p class="text-white tracking-light text-[32px] font-bold leading-tight truncate">92%</p>
+            <p class="text-[#8daece] text-base font-normal leading-normal">Last 30 Days</p>
+            <div class="grid min-h-[180px] grid-flow-col gap-6 grid-rows-[1fr_auto] items-end justify-items-center px-3">
+              <div class="border-[#8daece] bg-[#20364b] border-t-2 w-full" style="height: 60%;"></div>
+              <p class="text-[#8daece] text-[13px] font-bold leading-normal tracking-[0.015em]">Mon</p>
+              <div class="border-[#8daece] bg-[#20364b] border-t-2 w-full" style="height: 60%;"></div>
+              <p class="text-[#8daece] text-[13px] font-bold leading-normal tracking-[0.015em]">Tue</p>
+              <div class="border-[#8daece] bg-[#20364b] border-t-2 w-full" style="height: 90%;"></div>
+              <p class="text-[#8daece] text-[13px] font-bold leading-normal tracking-[0.015em]">Wed</p>
+              <div class="border-[#8daece] bg-[#20364b] border-t-2 w-full" style="height: 30%;"></div>
+              <p class="text-[#8daece] text-[13px] font-bold leading-normal tracking-[0.015em]">Thu</p>
+              <div class="border-[#8daece] bg-[#20364b] border-t-2 w-full" style="height: 30%;"></div>
+              <p class="text-[#8daece] text-[13px] font-bold leading-normal tracking-[0.015em]">Fri</p>
+            </div>
+          </div>
+        </div>
+        <h2 class="text-white text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Export Reports</h2>
+        <div class="flex items-center gap-4 bg-[#0f1a24] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#20364b] shrink-0 size-10" data-icon="FileCsv" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M48,180c0,11,7.18,20,16,20a14.24,14.24,0,0,0,10.22-4.66A8,8,0,0,1,85.78,206.4,30.06,30.06,0,0,1,64,216c-17.65,0-32-16.15-32-36s14.35-36,32-36a30.06,30.06,0,0,1,21.78,9.6,8,8,0,0,1-11.56,11.06A14.24,14.24,0,0,0,64,160C55.18,160,48,169,48,180Zm79.6-8.69c-4-1.16-8.14-2.35-10.45-3.84-1.25-.81-1.23-1-1.12-1.9a4.57,4.57,0,0,1,2-3.67c4.6-3.12,15.34-1.73,19.82-.56A8,8,0,0,0,142,145.86c-2.12-.55-21-5.22-32.84,2.76a20.58,20.58,0,0,0-9,14.95c-2,15.88,13.65,20.41,23,23.11,12.06,3.49,13.12,4.92,12.78,7.59-.31,2.41-1.26,3.34-2.14,3.93-4.6,3.06-15.17,1.56-19.55.36A8,8,0,0,0,109.94,214a61.34,61.34,0,0,0,15.19,2c5.82,0,12.3-1,17.49-4.46a20.82,20.82,0,0,0,9.19-15.23C154,179,137.49,174.17,127.6,171.31Zm83.09-26.84a8,8,0,0,0-10.23,4.84L188,184.21l-12.47-34.9a8,8,0,0,0-15.07,5.38l20,56a8,8,0,0,0,15.07,0l20-56A8,8,0,0,0,210.69,144.47ZM216,88v24a8,8,0,0,1-16,0V96H152a8,8,0,0,1-8-8V40H56v72a8,8,0,0,1-16,0V40A16,16,0,0,1,56,24h96a8,8,0,0,1,5.66,2.34l56,56A8,8,0,0,1,216,88Zm-27.31-8L160,51.31V80Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Export as CSV</p>
+        </div>
+        <div class="flex items-center gap-4 bg-[#0f1a24] px-4 min-h-14">
+          <div class="text-white flex items-center justify-center rounded-lg bg-[#20364b] shrink-0 size-10" data-icon="FilePdf" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path
+                d="M224,152a8,8,0,0,1-8,8H192v16h16a8,8,0,0,1,0,16H192v16a8,8,0,0,1-16,0V152a8,8,0,0,1,8-8h32A8,8,0,0,1,224,152ZM92,172a28,28,0,0,1-28,28H56v8a8,8,0,0,1-16,0V152a8,8,0,0,1,8-8H64A28,28,0,0,1,92,172Zm-16,0a12,12,0,0,0-12-12H56v24h8A12,12,0,0,0,76,172Zm88,8a36,36,0,0,1-36,36H112a8,8,0,0,1-8-8V152a8,8,0,0,1,8-8h16A36,36,0,0,1,164,180Zm-16,0a20,20,0,0,0-20-20h-8v40h8A20,20,0,0,0,148,180ZM40,112V40A16,16,0,0,1,56,24h96a8,8,0,0,1,5.66,2.34l56,56A8,8,0,0,1,216,88v24a8,8,0,0,1-16,0V96H152a8,8,0,0,1-8-8V40H56v72a8,8,0,0,1-16,0ZM160,80h28.69L160,51.31Z"
+              ></path>
+            </svg>
+          </div>
+          <p class="text-white text-base font-normal leading-normal flex-1 truncate">Export as PDF</p>
+        </div>
+      </div>
+      <div>
+        <div class="flex gap-2 border-t border-[#20364b] bg-[#172736] px-4 pb-3 pt-2">
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8daece]" href="#">
+            <div class="text-[#8daece] flex h-8 items-center justify-center" data-icon="House" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M218.83,103.77l-80-75.48a1.14,1.14,0,0,1-.11-.11,16,16,0,0,0-21.53,0l-.11.11L37.17,103.77A16,16,0,0,0,32,115.55V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V160h32v48a16,16,0,0,0,16,16h48a16,16,0,0,0,16-16V115.55A16,16,0,0,0,218.83,103.77ZM208,208H160V160a16,16,0,0,0-16-16H112a16,16,0,0,0-16,16v48H48V115.55l.11-.1L128,40l79.9,75.43.11.1Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8daece] text-xs font-medium leading-normal tracking-[0.015em]">Dashboard</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8daece]" href="#">
+            <div class="text-[#8daece] flex h-8 items-center justify-center" data-icon="Calendar" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8daece] text-xs font-medium leading-normal tracking-[0.015em]">Attendance</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 text-[#8daece]" href="#">
+            <div class="text-[#8daece] flex h-8 items-center justify-center" data-icon="CheckSquare" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M173.66,98.34a8,8,0,0,1,0,11.32l-56,56a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L112,148.69l50.34-50.35A8,8,0,0,1,173.66,98.34ZM224,48V208a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V48A16,16,0,0,1,48,32H208A16,16,0,0,1,224,48ZM208,208V48H48V208H208Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-[#8daece] text-xs font-medium leading-normal tracking-[0.015em]">Approvals</p>
+          </a>
+          <a class="just flex flex-1 flex-col items-center justify-end gap-1 rounded-full text-white" href="#">
+            <div class="text-white flex h-8 items-center justify-center" data-icon="PresentationChart" data-size="24px" data-weight="fill">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path
+                  d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40ZM104,144a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32,0a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32,0a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"
+                ></path>
+              </svg>
+            </div>
+            <p class="text-white text-xs font-medium leading-normal tracking-[0.015em]">Reports</p>
+          </a>
+        </div>
+        <div class="h-5 bg-[#172736]"></div>
+      </div>
+    </div>
+  </body>
+</html>
