@@ -13,18 +13,19 @@
 ## 2. Workflow (Step-by-step)
 
 1. **Teacher Login** → Opens app/web → starts new session.
-2. **QR Generation** → Unique QR code is generated for that class, valid only for a **short time window** (e.g., 5–10 minutes).
-3. **CR Distribution** → CR receives/displays the QR for classmates.
-4. **Student Scan** → Students must physically approach CR to scan.
+2. **QR Generation** → Unique QR code is generated for that class, valid only for per 5 to 10s or single use qr , that updates after each scan.
+   
+4. **CR Distribution** → CR receives/displays the QR for classmates.
+5. **Student Scan** → Students must physically approach CR to scan.
 
    * System records: **student ID, scan time, GPS coordinates**.
    * Adds entry to **pending attendance list**.
-5. **Teacher Screen** → Teacher sees real-time list of scanned students.
-6. **Teacher Verification** → Before finalizing:
+6. **Teacher Screen** → Teacher sees real-time list of scanned students.
+7. **Teacher Verification** → Before finalizing:
 
    * Teacher can **remove fake/extra entries**.
    * Teacher can **manually add students** if needed.
-7. **Submit Attendance** → Attendance is locked and sent to the database.
+8. **Submit Attendance** → Attendance is locked and sent to the database.
 
 ---
 
